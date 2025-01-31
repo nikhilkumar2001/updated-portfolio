@@ -43,10 +43,12 @@ function TextAnimation() {
           Step Inside a World of Innovation <br /> Explore My Exclusive Projects
         </span>
 
+        {/* Use this for the animated text */}
         <motion.span
           className="sm:text-4xl text-[11px] font-bold font-play-fair text-center"
           initial={{ opacity: 0, y: 100 }} // Initial state for the text
           animate={{
+            opacity: hasAnimated ? 1 : 0, // Opacity change
             y: hasAnimated ? [0, 5, 0] : [100, 100, 100], // Vertical movement for text
             x: hasAnimated ? [-1000, 0, 100] : [-1000, -1000, -1000], // Horizontal movement for text
             scale: hasAnimated ? [1.2, 1.8] : [0], // Scaling animation for text
@@ -59,6 +61,7 @@ function TextAnimation() {
             ease: "easeInOut",
           }}
         >
+          Explore the Future of Technology
         </motion.span>
       </motion.div>
     </div>
