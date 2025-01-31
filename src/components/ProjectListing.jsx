@@ -35,7 +35,7 @@ const ProjectListing = () => {
       id: 2,
       title: "EEA Svepindia",
       description:
-        "Building a website for RPS Rudrom, a developer group, using WordPress combined with custom coding. The site showcases their projects and services while ensuring a user-friendly interface, responsive design, and seamless navigation, reflecting the group's technical expertise and professionalism.",
+        "Building a website for EEA.Svepindia, a event group, using WordPress combined with custom coding. The site showcases their projects and services while ensuring a user-friendly interface, responsive design, and seamless navigation, reflecting the group's technical expertise and professionalism.",
       image: P2,
       tech: ["Wordpress", "Resolution-slider", "Scss", "PHP"],
       link: "http://eaa.svepindia.in/",
