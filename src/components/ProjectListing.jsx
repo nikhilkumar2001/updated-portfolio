@@ -156,7 +156,7 @@ const ProjectListing = () => {
               <p className="text-gray-300 font-poppin text-xs sm:text-sm sm:text-left text-wrap break-words overflow-hidden text-center">
                 {project.description}
               </p>
-              <ul className="text-slate-100 flex gap-6s flex sm:grid sm:grid-cols-3 font-lato sm:text-xl text-sm sm:text-center sm:justify-start justify-center xt uppercase">
+              <ul className="text-slate-100 flex gap-6 sm:grid sm:grid-cols-3 font-lato sm:text-xl text-sm sm:text-center sm:justify-start justify-center xt uppercase">
                 {project.tech.map((item, index) => (
                   <li className="text-center text-xs sm:text-sm" key={index}>
                     {item}
