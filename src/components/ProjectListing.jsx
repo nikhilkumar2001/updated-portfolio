@@ -130,7 +130,7 @@ const ProjectListing = () => {
   };
 
   // to show all or limited number of projects
-  const isDisplayProject = showMore ? projectData : projectData.slice(0, 3);
+  const isDisplayProject = showMore ? projectData : projectData.slice(0, 4);
 
   return (
     <div className="flex flex-col items-center justify-center sm:gap-40 gap-16 md:mt-[12cm] pt-10 pb-10 sm:pl-44 sm:pr-44 pl-10 pr-10 bg-black ">
