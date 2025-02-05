@@ -46,7 +46,7 @@ const ProjectListing = () => {
       description:
       "Developed the Lorien Finance website using React.js, Next.js, Chakra UI, and Tailwind CSS. Features include keyword-based search, product browsing with filters, image optimization, responsive design, and front-end integration with the back-end API.",
         image: P10,
-      tech: ["React.js", "Next.js", "Redux", "Axios", "ChakraUI", "Tailwind.Css", "MongoDb"],
+      tech: ["React.js", "Next.js", "ChakraUI", "Tailwind.Css", "MongoDb"],
       link: "https://www.lorien.finance/",
       github: "https://www.lorien.finance/",
     },
@@ -156,7 +156,7 @@ const ProjectListing = () => {
               <p className="text-gray-300 font-poppin text-xs sm:text-sm sm:text-left text-wrap break-words overflow-hidden text-center">
                 {project.description}
               </p>
-              <ul className="text-slate-100 flex gap-6 font-lato sm:text-xl text-sm sm:text-center sm:justify-start justify-center xt uppercase ">
+              <ul className="text-slate-100 flex gap-6 w-full max-w-full font-lato sm:text-xl text-sm sm:text-center sm:justify-start justify-center xt uppercase ">
                 {project.tech.map((item, index) => (
                   <li className="text-center text-xs sm:text-sm" key={index}>
                     {item}
