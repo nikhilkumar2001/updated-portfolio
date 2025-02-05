@@ -14,8 +14,7 @@ import P6 from "../assets/project/p6.png";
 import P7 from "../assets/project/p7.png";
 import P8 from "../assets/project/p8.png";
 import P9 from "../assets/project/p9.png";
-
-
+import P10 from "../assets/project/p12.png";
 
 const ProjectListing = () => {
   const [showMore, setShowMore] = useState(false);
@@ -32,7 +31,7 @@ const ProjectListing = () => {
       github: "https://mwbstore.com/",
     },
     {
-      id: 2,
+      id: 3,
       title: "EEA Svepindia",
       description:
         "Building a website for EEA.Svepindia, a event group, using WordPress combined with custom coding. The site showcases their projects and services while ensuring a user-friendly interface, responsive design, and seamless navigation, reflecting the group's technical expertise and professionalism.",
@@ -41,18 +40,28 @@ const ProjectListing = () => {
       link: "http://eaa.svepindia.in/",
       github: "http://eaa.svepindia.in/",
     },
+     {
+      id: 4,
+      title: "Lorien Finance",
+      description:
+      "Developed the Lorien Finance website using React.js, Next.js, Chakra UI, and Tailwind CSS. Features include keyword-based search, product browsing with filters, image optimization, responsive design, and front-end integration with the back-end API.",
+        image: P10,
+      tech: ["React.js", "Next.js", "Redux", "Axios", "ChakraUI", "Tailwind.Css", "MongoDb"],
+      link: "https://www.lorien.finance/",
+      github: "https://www.lorien.finance/",
+    },
     {
-      id: 3,
+      id: 5,
       title: "MediagraphicPR",
       description:
       "MediagraphicPR is a sleek, WordPress-based platform designed for managing media campaigns with an elegant and user-friendly interface, perfect for effective brand promotion.",
       image: P3,
-      tech: ["Wordpress","GSAP"],
+      tech: ["Wordpress", "GSAP"],
       link: "https://mediagraphicspr.com/",
       github: "https://mediagraphicspr.com/",
     },
     {
-      id: 4,
+      id: 6,
       title: "Modern UI Portfolio",
       description:
         "I have designed a modern UI concept portfolio inspired from Bentolio for my favorite singer, Zayn Malik. This project is built using Vite, React.js, and Remix, showcasing my design and development skills while celebrating Zayn's musical artistry.",
@@ -62,7 +71,7 @@ const ProjectListing = () => {
       github: "https://github.com/nikhilkumar2001/Modern-UI-Portfolio-Concept",
     },
     {
-      id: 5,
+      id: 7,
       title: "LetsMovin",
       description:
       " LetsMovin is an elegant property listing platform built on WordPress. Featuring a sleek and beautiful design, the website offers a user-friendly experience for browsing properties, with a focus on simplicity and functionality.",
@@ -72,7 +81,7 @@ const ProjectListing = () => {
       github:"https://letsmovin.com"
     },
     {
-      id: 6,
+      id: 8,
       title: "BizLoan",
       description:
       "BizLoan is an innovative loan platform built by you, utilizing a blend of WordPress, custom HTML, 3D UI libraries, and custom JavaScript code. The website offers a seamless, dynamic user experience, with its database securely connected to AWS for efficient data management.",
@@ -82,7 +91,7 @@ const ProjectListing = () => {
       github:"https://bizloanindia.com"
     },
     {
-      id: 7,
+      id: 9,
       title: "RUDROM",
       description:
       "Building a website for RPS Rudrom, a developer group, using WordPress combined with custom coding. The site showcases their projects and services while ensuring a user-friendly interface, responsive design, and seamless navigation, reflecting the group's technical expertise and professionalism.",
@@ -92,7 +101,7 @@ const ProjectListing = () => {
       github:"https://rudromgroup.in"
     },
     {
-      id: 8,
+      id: 10,
       title: "African Safari",
       description:
         "I designed and developed a modern, user-friendly website for Media PR, showcasing their services and expertise in public relations, with a clean, responsive layout tailored to enhance brand visibility and client engagement.",
