@@ -46,7 +46,7 @@ const ProjectListing = () => {
       description:
       "Developed the Lorien Finance website using React.js, Next.js, Chakra UI, and Tailwind CSS. Features include keyword-based search, product browsing with filters, image optimization, responsive design, and front-end integration with the back-end API.",
         image: P10,
-      tech: ["React.js", "Next.js", "ChakraUI", "Tailwind.Css", "MongoDb"],
+      tech: ["React.js", "Next.js", "Expres.js", "Node.js", "ChakraUI", "Tailwind.Css", "MongoDb"],
       link: "https://www.lorien.finance/",
       github: "https://www.lorien.finance/",
     },
